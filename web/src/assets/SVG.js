@@ -11,6 +11,7 @@ const SVG = ({
     width="100%"
     height="100%"
     viewBox={viewBox}
+    style={style}
     fill="none"
     className={`svg-icon ${className || ""}`}
     xmlns="http://www.w3.org/2000/svg"
