@@ -9,26 +9,6 @@ export default class Menu extends Component {
     return (
       <div id="page-landing">
         <div id="page-landing-content" className="container">
-          <div className="menu-container">
-            <a className="itemMenu" href="/">
-              Contato
-            </a>
-            <a className="itemMenu" href="/">
-              Clientes
-            </a>
-            <a className="itemMenu" href="/">
-              Trabalhos
-            </a>
-            <a className="itemMenu" href="/">
-              Serviços
-            </a>
-            <a className="itemMenu" href="/">
-              Sobre
-            </a>
-            <a className="itemMenu" href="/">
-              Início
-            </a>
-          </div>
           <div>
             <div className="logo-container">
               <h1>Bem vindo(a) a</h1>

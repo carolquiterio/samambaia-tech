@@ -1,17 +1,21 @@
 import React from "react";
 import Menu from "./components/Menu";
 import Home from "./components/Home";
+import NavBar from "./components/Nav/Navbar";
+
 import Icon from "./assets/SVG";
 
 import "./global.css";
 
 function App() {
   return (
-    <Menu
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    <>
+      <NavBar
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                         minim veniam."
-    />
+      />
+    </>
   );
 }
 
