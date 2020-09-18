@@ -7,13 +7,12 @@
   align-items: flex-start;
 
   color: #363636;
-  background-image: url(../../assets/frame1.svg);
+  background-image: url(../../assets/io.svg);
   background-size: cover;
 }
 
 #page-landing-content {
-  margin-top: 30rem;
-  margin-left: 20rem;
+  margin-top: 10rem;
 }
 
 .logo-container {
@@ -23,15 +22,15 @@
 
 .logo-container h1 {
   font-weight: 500;
-  font-size: 7rem;
-  line-height: 4.6rem;
+  font-size: 6rem;
+  line-height: 6rem;
   margin-top: 0.8rem;
 }
 
 .logo-container h2 {
   font-weight: bolder;
-  font-size: 7rem;
-  line-height: 4.6rem;
+  font-size: 6rem;
+  line-height: 6rem;
   margin-top: 3rem;
 }
 
@@ -86,6 +85,8 @@
     grid-template-columns: 3fr 1fr;
 
     grid-template-areas: "txt button";
+    margin-left: 20rem;
+    margin-top: 30rem;
   }
 
   .logo-container {
