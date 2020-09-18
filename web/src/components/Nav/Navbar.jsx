@@ -9,6 +9,7 @@ const Nav = styled.nav`
 
   padding: 0 20px;
   display: flex;
+
   justify-content: space-between;
   .logo {
     padding: 15px 0;
@@ -21,10 +22,14 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <div className="logo">Samambaia Tech</div>
+        <div className="logo"></div>
         <Burger />
       </Nav>
-      <Menu />
+      <Menu
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam."
+      />
     </>
   );
 };
