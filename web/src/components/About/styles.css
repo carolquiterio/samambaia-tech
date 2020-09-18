@@ -1,13 +1,9 @@
 #page-landing-about {
-  width: 100vw;
-  height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
 
   color: #363636;
-  background: #fff;
 }
 
 @media (min-width: 1100px) {

@@ -32,7 +32,7 @@ const RightNav = ({ open }) => {
       <a className="itemMenu" href="/">
         Início
       </a>
-      <a className="itemMenu" href="/">
+      <a className="itemMenu" href="#about">
         Sobre
       </a>
       <a className="itemMenu" href="/">

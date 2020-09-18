@@ -1,14 +1,18 @@
 #page-landing {
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 
   color: #363636;
-  background-image: url(../../assets/page.svg);
+  background-image: url(../../assets/frame1.svg);
   background-size: cover;
+}
+
+#page-landing-content {
+  margin-top: 30rem;
 }
 
 .logo-container {
