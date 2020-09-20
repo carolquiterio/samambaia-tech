@@ -12,8 +12,9 @@ export default class About extends Component {
               <h2>Samambaia Tech</h2>
               <h5 className="description">{this.props.description}</h5>
             </div>
-
-            <button className="start-button">Entrar em contato</button>
+            <div className="button-container">
+              <button className="start-button">Entrar em contato</button>
+            </div>
           </div>
         </div>
       </div>
