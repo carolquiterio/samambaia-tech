@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import "./styles.css";
+
 import pcImage from "../../assets/pcs.svg";
 
-export default class About extends Component {
+export default class Services extends Component {
   render() {
     return (
-      <div id="about" className="page-landing">
+      <div id="services" className="page-landing">
         <div id="page-landing-content-about" className="container">
           <div></div>
           <div className="text-about">
-            <h1>SOBRE NÓS</h1> <br />
+            <h1>Serviços</h1> <br />
             <h4>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

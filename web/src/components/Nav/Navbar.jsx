@@ -14,8 +14,9 @@ const Nav = styled.nav`
   .logo {
     padding: 15px 0;
   }
-  position: absolute;
+  position: fixed;
   flex-direction: top;
+  background-color: #6eddb5;
 `;
 
 const Navbar = () => {

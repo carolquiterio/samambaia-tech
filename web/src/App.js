@@ -3,6 +3,10 @@ import Menu from "./components/Menu";
 import Home from "./components/Home";
 import NavBar from "./components/Nav/Navbar";
 import About from "./components/About";
+import Services from "./components/Services";
+import Clients from "./components/Clients";
+import Contact from "./components/Contact";
+import Works from "./components/Works";
 
 import Icon from "./assets/SVG";
 
@@ -12,7 +16,11 @@ function App() {
   return (
     <div className="landing">
       <NavBar />
-      <About id="/#about" />
+      <About />
+      <Services />
+      <Clients />
+      <Contact />
+      <Works />
     </div>
   );
 }
