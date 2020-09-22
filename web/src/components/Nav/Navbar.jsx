@@ -5,7 +5,7 @@ import Menu from "../Menu";
 
 const Nav = styled.nav`
   width: 100%;
-  height: 55px;
+  height: 6rem;
 
   padding: 0 20px;
   display: flex;
@@ -17,6 +17,8 @@ const Nav = styled.nav`
   position: fixed;
   flex-direction: top;
   background-color: #6eddb5;
+
+  align-items: center;
 `;
 
 const Navbar = () => {

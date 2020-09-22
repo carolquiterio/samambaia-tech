@@ -12,22 +12,21 @@
 }
 
 .logo-container {
-  margin-bottom: 3.2rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
 .logo-container h1 {
   font-weight: 500;
   font-size: 4rem;
-  line-height: 6rem;
-  margin-top: 0.8rem;
+  line-height: 3rem;
 }
 
 .logo-container h2 {
   font-weight: bolder;
   font-size: 4rem;
   line-height: 6rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .logo-container h5 {
@@ -72,9 +71,8 @@
   margin-left: 10px;
   padding: 5px;
   float: right;
-  margin-top: 20px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 23px;
   color: #fff;
   margin-right: 10px;
@@ -97,8 +95,8 @@
     grid-template-columns: 3fr 1fr;
 
     grid-template-areas: "txt button";
-    margin-left: 20rem;
-    margin-top: 30rem;
+    margin-left: 15rem;
+    margin-top: 25rem;
   }
 
   .logo-container {
@@ -108,5 +106,6 @@
 
   .start-button {
     grid-area: button;
+    align-self: flex-start;
   }
 }
