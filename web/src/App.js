@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="landing">
       <NavBar />
-      <About />
+      <About id="/#about" />
     </div>
   );
 }
