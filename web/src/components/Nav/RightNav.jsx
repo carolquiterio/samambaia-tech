@@ -8,6 +8,11 @@ const Ul = styled.ul`
   li {
     padding: 18px 10px;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   @media (max-width: 768px) {
     flex-flow: column nowrap;
     background-color: #363636;
@@ -29,22 +34,22 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <a className="itemMenu" href="/">
+      <a className="itemMenu" href="#">
         Início
       </a>
-      <a className="itemMenu" href="/about">
+      <a className="itemMenu" href="#about">
         Sobre
       </a>
-      <a className="itemMenu" href="/services">
+      <a className="itemMenu" href="#services">
         Serviços
       </a>
-      <a className="itemMenu" href="/works">
+      <a className="itemMenu" href="#works">
         Trabalhos
       </a>
-      <a className="itemMenu" href="/clients">
+      <a className="itemMenu" href="#clients">
         Clientes
       </a>
-      <a className="itemMenu" href="/contact">
+      <a className="itemMenu" href="#contact">
         Contato
       </a>
     </Ul>

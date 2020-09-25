@@ -4,17 +4,50 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  height: 100vh;
   color: #363636;
+  background-color: #f5f4f4;
 }
 
 .pc-image {
   width: 80vw;
+  align-self: center;
 }
 
-.text-about h4,
-ul {
-  color: #545454;
+.image-about {
+  width: 80vw;
+  margin-bottom: 3rem;
+}
+
+.text-about h1 {
+  align-self: center;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.text-about h4 {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+
+  color: #787878;
+}
+
+.text-about ul {
+  text-align: center;
+}
+
+.text-about h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.text-about li {
+  display: flex;
+  align-items: center;
 }
 
 @media (min-width: 1100px) {

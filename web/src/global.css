@@ -1,6 +1,9 @@
 :root {
   font-size: 60%;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0;

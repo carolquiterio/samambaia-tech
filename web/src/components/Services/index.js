@@ -6,10 +6,10 @@ export default class Services extends Component {
   render() {
     return (
       <div id="services" className="page-landing">
-        <div id="page-landing-content-about" className="container">
+        <div id="page-landing-content-services" className="container">
           <div></div>
-          <div className="text-about">
-            <h1>Serviços</h1> <br />
+          <div className="text-services">
+            <h1>NOSSOS SERVIÇOS</h1> <br />
             <h4>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

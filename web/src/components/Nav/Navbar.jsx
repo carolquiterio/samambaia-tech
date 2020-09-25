@@ -16,7 +16,6 @@ const Nav = styled.nav`
   }
   position: fixed;
   flex-direction: top;
-  background-color: #6eddb5;
 
   align-items: center;
 `;
