@@ -20,7 +20,6 @@ function App() {
       <Services />
       <Clients />
       <Contact />
-      <Works />
     </div>
   );
 }
