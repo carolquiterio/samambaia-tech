@@ -1,0 +1,48 @@
+.page-landing-contact {
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  color: #363636;
+  background-color: #fff;
+}
+
+.text-contact h1 {
+  align-self: center;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.text-contact h4 {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+
+  color: #787878;
+}
+
+.contact-input {
+  background: #f5f5f5;
+  border-width: 0;
+  height: 4rem;
+  align-self: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-contact {
+  align-self: center;
+  align-items: center;
+}
+
+.form-button-contact {
+  background: #6eddb5;
+  height: 4rem;
+  width: 10rem;
+  border-radius: 54rem;
+  border-width: 0;
+}
