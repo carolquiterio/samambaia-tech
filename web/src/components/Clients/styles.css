@@ -1,0 +1,39 @@
+.page-landing-clients {
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  color: #363636;
+  background-color: #fff;
+}
+
+.text-clients h1 {
+  align-self: center;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.text-clients h4 {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+
+  color: #787878;
+}
+
+@media (min-width: 1100px) {
+  #page-landing-content-clients {
+    max-width: 1100px;
+
+    display: grid;
+    grid-template-rows: 350px 1fr;
+    grid-template-columns: 3fr 1fr;
+
+    grid-template-areas: "txt button";
+  }
+}
