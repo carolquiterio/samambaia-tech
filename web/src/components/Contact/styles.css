@@ -7,6 +7,7 @@
   height: 200vh;
   color: #363636;
   background-color: #fff;
+  padding: 6rem;
 }
 
 .text-contact h1 {
@@ -29,9 +30,14 @@
 .contact-input {
   background: #f5f5f5;
   border-width: 0;
-  height: 4rem;
   align-self: center;
   margin-bottom: 1.5rem;
+  padding: 1.3rem;
+  width: 80vw;
+}
+
+.contact-input:focus {
+  outline: none;
 }
 
 .form-contact {
@@ -45,4 +51,8 @@
   width: 10rem;
   border-radius: 54rem;
   border-width: 0;
+}
+
+.form-button-contact:focus {
+  outline: none;
 }

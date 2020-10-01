@@ -32,11 +32,13 @@ export default class Contact extends Component {
                 className="contact-input"
                 placeholder="Seu email"
               />
-              <input
+              <textarea
                 type="text"
                 name="name"
                 className="contact-input"
                 placeholder="Sua mensagem"
+                rows="10"
+                cols="30"
               />
               <br />
               <input

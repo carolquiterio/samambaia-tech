@@ -43,9 +43,6 @@ const RightNav = ({ open }) => {
       <a className="itemMenu" href="#services">
         Serviços
       </a>
-      <a className="itemMenu" href="#works">
-        Trabalhos
-      </a>
       <a className="itemMenu" href="#clients">
         Clientes
       </a>
