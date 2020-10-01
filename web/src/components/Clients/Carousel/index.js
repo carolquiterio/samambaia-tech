@@ -1,57 +1,70 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-import { StyledCard } from "./styles";
+import { StyledCard, ClientSays, ClientImg } from "./styles";
+
+import clientImg from "../../../assets/quadrado.jpg";
+
+import "./styles.css";
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "#6EDDB5" }}
+      onClick={onClick}
+    />
+  );
+}
 
 export default class Responsive extends Component {
   render() {
     var settings = {
       dots: true,
-      infinite: false,
+      infinite: true,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      initialSlide: 0,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 1
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SampleNextArrow />
     };
     return (
       <div>
-        <h2> Responsive </h2>
         <Slider {...settings}>
-          <StyledCard>
-            <h3>1111111</h3>
-          </StyledCard>
-          <StyledCard>
-            <h3>2222222222</h3>
-          </StyledCard>
-          <StyledCard>
-            <h3>3333333333</h3>
-          </StyledCard>
+          <div className="client-card-container">
+            <h1 className="card-text">
+              <img src={clientImg} className="client-image" />
+              "Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry."
+            </h1>
+            <br />
+            <br />
+
+            <h1 className="card-text">- Maísa Silva</h1>
+          </div>
+          <div className="client-card-container">
+            <h1 className="card-text">
+              <img src={clientImg} className="client-image" />
+              "Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry."
+            </h1>
+            <br />
+            <br />
+
+            <h1 className="card-text">- Maísa Silva</h1>
+          </div>
+          <div className="client-card-container">
+            <h1 className="card-text">
+              <img src={clientImg} className="client-image" />
+              "Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry."
+            </h1>
+            <br />
+            <br />
+
+            <h1 className="card-text">- Maísa Silva</h1>
+          </div>
         </Slider>
       </div>
     );

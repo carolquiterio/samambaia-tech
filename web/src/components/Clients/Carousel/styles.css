@@ -1,0 +1,37 @@
+.client-image {
+  width: 15vh;
+  border-radius: 50%;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin-left: 40%;
+  margin-bottom: 2rem;
+}
+
+.client-card-container {
+  flex: 1;
+  width: 80vw;
+  height: 42vh;
+  align-items: center;
+  justify-content: center;
+  color: #5c5c5c;
+  padding: 5rem;
+  text-align: center;
+}
+
+.client-card-container:focus {
+  outline: none;
+}
+
+.card-text {
+  text-align: center;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  align-self: center;
+  color: #787878;
+  font-size: 2rem;
+}
