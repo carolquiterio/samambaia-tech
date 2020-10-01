@@ -4,6 +4,8 @@ import pcImage from "../../assets/pcs.svg";
 
 import "./styles.css";
 
+import { AiOutlineAreaChart } from "react-icons/ai";
+
 export default class Contact extends Component {
   render() {
     return (
@@ -20,14 +22,16 @@ export default class Contact extends Component {
             </h4>
             <br />
             <form className="form-contact">
+              <div className="input-div">
+                <input
+                  type="text"
+                  name="name"
+                  className="contact-input"
+                  placeholder="Seu nome"
+                />
+              </div>
               <input
-                type="text"
-                name="name"
-                className="contact-input"
-                placeholder="Seu nome"
-              />
-              <input
-                type="text"
+                type="email"
                 name="name"
                 className="contact-input"
                 placeholder="Seu email"
