@@ -4,22 +4,15 @@ import pcImage from "../../assets/pcs.svg";
 
 import "./styles.css";
 
-import { AiOutlineAreaChart } from "react-icons/ai";
+import { MdPlace } from "react-icons/md";
 
 export default class Contact extends Component {
   render() {
     return (
       <div id="contact" className="page-landing-contact">
         <div id="page-landing-content-contact" className="container-contact">
-          <div></div>
           <div className="text-contact">
             <h1>ENTRE EM CONTATO</h1> <br />
-            <h4>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </h4>
             <br />
             <form className="form-contact">
               <div className="input-div">
@@ -51,6 +44,23 @@ export default class Contact extends Component {
                 className="form-button-contact"
               />
             </form>
+            <br />
+            <label className="info-title">Informações para contato</label>
+            <div className="icon-text-div">
+              <MdPlace color="#363636" size={25} />
+              <label className="info-description-title"> Endereço</label>
+            </div>
+            <label className="info-description">Rua Amélia Bueno n° 87</label>
+            <div className="icon-text-div">
+              <MdPlace color="#363636" size={25} />
+              <label className="info-description-title"> Endereço</label>
+            </div>
+            <label className="info-description">Rua Amélia Bueno n° 87</label>
+            <div className="icon-text-div">
+              <MdPlace color="#363636" size={25} />
+              <label className="info-description-title"> Endereço</label>
+            </div>
+            <label className="info-description">Rua Amélia Bueno n° 87</label>
           </div>
         </div>
       </div>

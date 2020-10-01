@@ -1,9 +1,5 @@
 .page-landing-contact {
   width: 100vw;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 200vh;
   color: #363636;
   background-color: #fff;
@@ -16,15 +12,33 @@
   text-align: center;
 }
 
-.text-contact h4 {
-  margin-bottom: 3rem;
-  text-align: center;
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 23px;
+.icon-text-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
-  color: #787878;
+  margin-top: 2.5rem;
+}
+
+.info-description-title {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: normal;
+}
+
+.info-description {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: normal;
+  margin-left: 2.8rem;
+}
+
+.info-title {
+  margin-top: 3rem;
+  text-align: center;
+  line-height: 23px;
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
 .contact-input {
