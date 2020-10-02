@@ -1,11 +1,9 @@
 .page-landing {
   width: 100vw;
-
   display: flex;
   justify-content: center;
   align-items: center;
   height: 110vh;
-  background-color: #f0efef;
 }
 
 .pc-image {
