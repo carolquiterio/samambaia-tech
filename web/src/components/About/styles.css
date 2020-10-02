@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
   height: 110vh;
-  color: #363636;
   background-color: #f0efef;
 }
 
@@ -32,8 +31,6 @@
   font-style: normal;
   font-weight: normal;
   line-height: 23px;
-
-  color: #787878;
 }
 
 .text-about ul {
