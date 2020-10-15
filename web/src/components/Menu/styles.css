@@ -7,7 +7,7 @@
   align-items: center;
 
   color: #363636;
-  background-image: url(../../assets/io.svg);
+  background-image: url(../../assets/new/fundo.svg);
   background-size: cover;
 }
 
@@ -102,6 +102,6 @@
   }
 
   .button-container {
-    align-self: flex-start;
+    justify-content: flex-start;
   }
 }
